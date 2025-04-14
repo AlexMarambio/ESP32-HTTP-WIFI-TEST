@@ -6,7 +6,7 @@ const router = express.Router();
 router.use(express.json());
 
 // Recibir mensaje
-router.post('/message', (req, res) => {
+router.post('/', (req, res) => {
   const { mensaje } = req.body;
 
   if (!mensaje) {
