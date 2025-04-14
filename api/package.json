@@ -1,0 +1,25 @@
+{
+  "name": "esp32-http-wifi-test",
+  "version": "1.0.0",
+  "description": "API that recieves a HTTP post request with a message sended by Serial port",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexMarambio/ESP32-HTTP-WIFI-TEST.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AlexMarambio/ESP32-HTTP-WIFI-TEST/issues"
+  },
+  "homepage": "https://github.com/AlexMarambio/ESP32-HTTP-WIFI-TEST#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
