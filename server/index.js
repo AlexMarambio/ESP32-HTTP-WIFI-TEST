@@ -11,3 +11,4 @@ app.use("/api/message", messageRouter);
 app.listen(port, () => {
   console.log(`API escuchando en http://localhost:${port}`);
 });
+export default app;
