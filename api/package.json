@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "API that recieves a HTTP post request with a message sended by Serial port",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
@@ -14,7 +15,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/AlexMarambio/ESP32-HTTP-WIFI-TEST/issues"
   },

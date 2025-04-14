@@ -1,11 +1,12 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
+#include <env.c>
 
-const char* ssid = "Wokwi-GUEST";
-const char* password = "";
+const String ssid = WIFINAME;
+const String password = WIFIPASS;
 
 // 🔁 REEMPLAZA CON TU URL REAL DE VERCEL
-const char* servidor = "https://tuprojecto.vercel.app/api/mensaje";
+const String servidor = "https://esp-32-http-wifi-test-8v1vx2yhi-alexs-projects-1e79558c.vercel.app/message";
 
 String mensajePendiente = "";
 
@@ -14,7 +15,7 @@ void setup() {
   delay(1000);
 
   WiFi.begin(ssid, password);
-  Serial.print("Conectando a WiFi...");
+  Serial.print("Conectando a WiFi "+ssid+"...");
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
