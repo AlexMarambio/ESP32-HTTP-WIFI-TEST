@@ -1,21 +1,13 @@
-// /api/message.js
-import express from "express";
-const router = express.Router();
-
-// Middleware para manejar JSON
-router.use(express.json());
-
 // Recibir mensaje
-router.post('/', (req, res) => {
-  const { mensaje } = req.body;
+const recieveMessage = (req, res) => {
 
-  if (!mensaje) {
+  if (!req) {
     return res.status(400).json({ error: 'Mensaje no recibido' });
   }
 
-  console.log('📨 Mensaje recibido:', mensaje);
+  console.log('📨 Mensaje recibido:', req);
 
   res.status(200).json({ recibido: true });
-});
+};
 
-export default router;
+export default recieveMessage;
