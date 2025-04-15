@@ -1,7 +1,7 @@
 # ESP32-HTTP-WIFI-TEST
  API that recieves a HTTP post request with a message sended by Serial port
 ## Vercel Deployment
-[Vercel ESP32 test][https://esp-32-http-wifi-test.vercel.app/]
+[Vercel ESP32 test](https://esp-32-http-wifi-test.vercel.app/)
 
 ## Steps to try
 ### API
