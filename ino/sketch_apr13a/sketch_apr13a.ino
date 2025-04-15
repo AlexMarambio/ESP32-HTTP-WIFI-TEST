@@ -5,8 +5,8 @@
 const String ssid = WIFINAME;
 const String password = WIFIPASS;
 
-// 🔁 REEMPLAZA CON TU URL REAL DE VERCEL
-const String servidor = "https://esp-32-http-wifi-test-8v1vx2yhi-alexs-projects-1e79558c.vercel.app/message";
+// API en vercel
+const String servidor = "https://esp-32-http-wifi-test.vercel.app/api/message";
 
 String mensajePendiente = "";
 

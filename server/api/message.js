@@ -1,4 +1,4 @@
-// api/message.js
+// Función para recibir mensaje
 const recieveMessage = (req, res) => {
     const { mensaje } = req.body;
   
