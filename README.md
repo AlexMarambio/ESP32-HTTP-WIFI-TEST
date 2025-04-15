@@ -3,7 +3,7 @@
 ## Vercel Deployment
 [Vercel ESP32 test][https://esp-32-http-wifi-test.vercel.app/]
 
-## Esteps to try
+## Steps to try
 ### API
 - Fork repository
 - Enter vercel.com
