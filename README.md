@@ -11,7 +11,9 @@
 ### ESP
 - Open sketch on Arduino IDE
 - Change url to yours, in this case:
-  ```https://esp-32-http-wifi-test.vercel.app/api/message```
+  ```
+  https://esp-32-http-wifi-test.vercel.app/api/message
+  ```
 - Upload to your ESP32
 - Open Serial Monitor **115200 bauds**
 - Write your message
