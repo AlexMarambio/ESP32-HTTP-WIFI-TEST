@@ -20,7 +20,7 @@ void setup() {
     delay(500);
     Serial.print(".");
   }
-  Serial.println("\n✅ Conectado a WiFi");
+  Serial.println("\nConectado a WiFi");
   Serial.println("Escribe un mensaje para enviar al servidor:");
 }
 
@@ -46,16 +46,16 @@ void enviarMensaje(String mensaje) {
     int codigo = http.POST(payload);
 
     if (codigo > 0) {
-      Serial.println("✅ Mensaje enviado");
-      Serial.println("📬 Respuesta del servidor:");
+      Serial.println("Mensaje enviado");
+      Serial.println("Respuesta del servidor:");
       Serial.println(http.getString());
     } else {
-      Serial.print("❌ Error al enviar: ");
+      Serial.print("Error al enviar: ");
       Serial.println(http.errorToString(codigo));
     }
 
     http.end();
   } else {
-    Serial.println("⚠️ No conectado a WiFi");
+    Serial.println("No conectado a WiFi");
   }
 }
