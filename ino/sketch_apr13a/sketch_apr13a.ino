@@ -2,8 +2,8 @@
 #include <HTTPClient.h>
 #include <env.c>
 
-const String ssid = WIFINAME;
-const String password = WIFIPASS;
+const String ssid = WIFINAME; //Wokwi-GUEST
+const String password = WIFIPASS;//no pass
 
 // API en vercel
 const String servidor = "https://esp-32-http-wifi-test.vercel.app/api/message";
